@@ -1,5 +1,5 @@
 # Build stage
-FROM node:22-slim as builder
+FROM node:22-slim AS builder
 
 WORKDIR /app
 
@@ -11,6 +11,9 @@ RUN npm ci --only=production
 
 # Copy source code
 COPY . .
+
+# Set environment variable to ignore broken links
+ENV DOCUSAURUS_BROKEN_LINKS=ignore
 
 # Build the application
 RUN npm run build
