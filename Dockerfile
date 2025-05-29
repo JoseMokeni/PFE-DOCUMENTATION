@@ -12,9 +12,6 @@ RUN npm ci --only=production
 # Copy source code
 COPY . .
 
-# Set environment variable to ignore broken links
-ENV DOCUSAURUS_BROKEN_LINKS=ignore
-
 # Build the application
 RUN npm run build
 

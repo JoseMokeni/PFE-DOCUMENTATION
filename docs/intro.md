@@ -164,7 +164,6 @@ Cette documentation est organisée pour vous guider étape par étape :
 ### 📖 Guides principaux
 
 - **[Guide de démarrage rapide](./guide-demarrage-rapide)** : Mise en fonctionnement complète
-- **[Architecture du projet](./architecture-projet)** : Vue d'ensemble technique
 
 ### 🔧 Configuration des services
 

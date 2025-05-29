@@ -109,9 +109,9 @@ Créez vos comptes sur les services suivants :
 
 Suivez les guides détaillés :
 
-- [Configuration Firebase](../pre-requisites/firebase)
-- [Configuration Stripe](../pre-requisites/stripe)
-- [Configuration Sentry](../pre-requisites/sentry)
+- [Configuration Firebase](./pre-requisites/firebase)
+- [Configuration Stripe](./pre-requisites/stripe)
+- [Configuration Sentry](./pre-requisites/sentry)
 
 ### Phase 2 : Infrastructure Docker
 
@@ -367,9 +367,9 @@ SENTRY_TRACES_SAMPLE_RATE=0.1
 
 ### Documentation détaillée
 
-- [Installation Laravel](../web-part/installation-laravel)
-- [Installation Applications Mobiles](../mobile-apps/installation-mobile)
-- [Guide d'utilisation](../mobile-apps/guide-utilisation)
+- [Installation Laravel](./web-part/installation-laravel)
+- [Installation Applications Mobiles](./mobile-apps/installation-mobile)
+- [Guide d'utilisation](./mobile-apps/guide-utilisation)
 
 ### Liens utiles
 
